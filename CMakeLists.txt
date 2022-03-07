@@ -35,7 +35,7 @@ find_package(CURL)
 
 
 set( NAME_SRC
-    sb.cpp    
+    src/main.cpp include/travisFilter.h   
 )
 
 if (CURL_FOUND)
